@@ -1,0 +1,101 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE:#1D3557
+DARK BLUE: #1D3557
+
+*/
+
+body, html {
+    margin: 0;
+    
+}
+
+.hero {
+    padding: 40px 0px 20px 0px;
+    background-image: url("Jeddah-pic.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.hero-jeddah {
+    padding: 5px 5px;
+    background-color:  #457B9D;
+    border-radius: 4px;
+}
+
+.hero-district {
+    padding: 5px 5px;
+    background-color:  #1D3557;;
+    border-radius: 4px;
+}
+
+
+/* problem here*/
+
+.activity {
+    padding: 25px;
+}
+
+.Img {
+    width: 200px;
+    border-radius: 200px;
+}
+
+
+.work {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+.color {   
+    width: 200px;
+    color:  #1D3557;
+
+}
+.p {
+    color:   #1D3557;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 400;
+}
+
+/* all good here*/
+
+h3,h4,p,h1,h2 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-shadow: 1px 0px 0px black;
+}
+
+
+.guide {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 0px auto;
+    width: 400px;
+    padding: 30px;
+    color:  #2b2839;
+    background-color: #ddebf8;
+    border-bottom: 5px #d8cefe solid;
+}
