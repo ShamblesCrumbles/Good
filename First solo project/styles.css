@@ -15,7 +15,7 @@ body, html {
 
 .hero {
     padding: 40px 0px 20px 0px;
-    background-image: url("Jeddah-pic.jpg");
+    background-image: url("jeddah-pic.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
